@@ -6,7 +6,9 @@
     <br><br>
     <img src="./assets/6eea11dd-4554-44ca-9459-f5e0177b510b.png" width="1280" align="center" />
     <br><br>
-    [Paper] [Code] [🤗] (would be released soon)
+    <a>[Paper(released soon)]</a>
+  <a href="https://github.com/FlagOpen/FlagScale">[Code]</a>
+  <a href="https://huggingface.co/BAAI/AquilaMoE">[🤗]</a> 
 </p>
 
 
@@ -16,7 +18,7 @@ We present **AquilaMoE**, a cutting-edge bilingual 8\*16B Mixture of Experts (Mo
 
 ### Datasets
 
-We constructed a bilingual pretraining dataset of 4TB tokens in both Chinese and English. This dataset includes webpages, arXiv papers, encyclopedic data, books, codes, and QA pairs. It covers a wide range of high-quality open-source pretraining data such as RedPajama-Data-V2, falcon-refinedweb, C4, Pile, WuDaoCorporaText, ChineseWebText, etc. The above open-source data underwent language filtering to retain only Chinese and English texts, heuristic refinement to remove low-quality content, deduplication to maintain uniqueness, domain-specific filtering for relevance, data quality checks, removal of toxic and explicit content, and finally, data mixing in specified proportions.
+We constructed a bilingual pretraining dataset of 4TB tokens in both Chinese and English. This dataset includes webpages, arXiv papers, encyclopedic data, books, codes, and QA pairs. It covers a wide range of high-quality open-source pretraining data such as [RedPajama-Data-V2](https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2), [falcon-refinedweb](https://huggingface.co/datasets/tiiuae/falcon-refinedweb), [C4](https://huggingface.co/datasets/allenai/c4), [Pile](https://huggingface.co/datasets/EleutherAI/pile), [WuDaoCorporaText](https://data.baai.ac.cn/details/WuDaoCorporaText), [ChineseWebText](https://huggingface.co/datasets/CASIA-LM/ChineseWebText), etc. The above open-source data underwent language filtering to retain only Chinese and English texts, heuristic refinement to remove low-quality content, deduplication to maintain uniqueness, domain-specific filtering for relevance, data quality checks, removal of toxic and explicit content, and finally, data mixing in specified proportions.
 
 ### Model Configurations
 
