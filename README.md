@@ -69,6 +69,7 @@ Performance
 The performance of the AquilaMoE model series improves significantly across multiple tasks as the parameter size increases. Both scale-up and scale-out strategies are highly effective in enhancing model performance.
 <img src="./assets/1280X1280.PNG" width = "500" height = "450"  align=center />
 
+
 | Model            | AquilaDense-7B | AquilaDense-16B | AquilaMoE |
 |------------------|------------|-------------|---------------|
 | ARC-c-ppl        | 37.63      | 38.31       | 43.05         |
@@ -86,6 +87,8 @@ The performance of the AquilaMoE model series improves significantly across mult
 | nq-gen           | 8.61       | 9.94        | 10.78         |
 | piqa-ppl         | 76.71      | 79.22       | 80.3          |
 *Table: Overall evaluation results of AquilaDense and AquilaMoE(AquilaMoE-8*16B).
+
+
 SFT
 | Model            | AquilaMoE-SFT |
 |------------------|---------------|
@@ -103,7 +106,6 @@ SFT
 | bbh-gen          |               |
 | nq-gen           |               |
 | piqa-ppl         |               |
-
 *Table: Performance of AquilaMoE-SFT(16*8B) on various benchmarks.*
 
 License Agreement
