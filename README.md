@@ -134,6 +134,10 @@ The performance of the AquilaMoE model series improves significantly across mult
 | mmlu-ppl         | 59.93         |
 | winograd-ppl     | 57.5          |
 
+| Model            | GPT 3.5 Turbo (11/06) | GPT 3.5 Turbo (03/01) | AquilaMoE-SFT |
+|------------------|-----------------------|-----------------------|---------------|
+| AlpacaEval 2.0   | 19.3                  | 18.1                  | 21.1          |
+
 *Table: Performance of AquilaMoE-SFT (16\*8B) on various benchmarks.*
 
 ## License Agreement
