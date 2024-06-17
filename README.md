@@ -14,6 +14,13 @@
 
 We present **AquilaMoE**, a cutting-edge bilingual 8\*16B Mixture of Experts (MoE) language model developed using an innovative training methodology called EfficientScale. This approach optimizes performance while minimizing data requirements through a two-stage process. The first stage, termed Scale-Up, initializes the larger model with weights from a pre-trained smaller model, enabling substantial knowledge transfer and continuous pretraining with significantly less data. The second stage, Scale-Out, uses a pre-trained dense model to initialize the MoE experts, further enhancing knowledge transfer and performance. Extensive validation experiments on 1.8B and 7B models compared various initialization schemes, achieving models that maintain and reduce loss during continuous pretraining. Utilizing the optimal scheme, we successfully trained a 16B model and subsequently the 8\*16B AquilaMoE model, demonstrating significant improvements in performance and training efficiency.
 
+| Model Name         |                                                                                                               Download Sources                                                                                                                |
+|-------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| AquilaDense-7B        |   [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/220131) [🤗](https://huggingface.co/BAAI/AquilaDense-7B) |
+| AquilaDense-16B       |   [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/220130) [🤗](https://huggingface.co/BAAI/AquilaDense-16B) |
+| AquilaMoE             |   [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/220127) [🤗](https://huggingface.co/BAAI/AquilaMoE) |
+| AquilaMoE-SFT         |   [<img src="assets/baai.png" width="18"/>](https://model.baai.ac.cn/model-detail/220129) [🤗](https://huggingface.co/BAAI/AquilaMoE-SFT) |
+
 ## Training Details
 
 ### Datasets
