@@ -1,3 +1,4 @@
+[<img src="assets/flagopen.jpeg">](https://flagopen.baai.ac.cn/)
 # AquilaMoE: Efficient Training for MoE Models with Scale-Up and Scale-Out Strategies
 <p align="center">
     <br>
